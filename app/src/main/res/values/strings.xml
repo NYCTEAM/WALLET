@@ -836,7 +836,6 @@
     <!--Transactions-->
 
     <string name="Transactions_Title">Transactions</string>
-    <string name="Swap">Swap</string>
     <string name="Transactions_EmptyList">No pending or past transactions yet.</string>
     <string name="Transactions_WaitForSync">Please wait for the sync to finish.</string>
     <string name="Transactions_Pending">Pending</string>
