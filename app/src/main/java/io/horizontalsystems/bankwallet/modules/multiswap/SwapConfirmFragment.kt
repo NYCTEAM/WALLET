@@ -143,7 +143,7 @@ fun SwapConfirmScreen(navController: NavController) {
                 var buttonEnabled by remember { mutableStateOf(true) }
                 ButtonPrimaryYellow(
                     modifier = Modifier.fillMaxWidth(),
-                    title = stringResource(R.string.Swap),
+                    title = stringResource(R.string.Swap_Tab_Title),
                     enabled = buttonEnabled,
                     onClick = {
                         coroutineScope.launch {

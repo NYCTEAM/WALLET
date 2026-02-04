@@ -6,7 +6,7 @@ import androidx.activity.OnBackPressedCallback
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.BoxScope
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -133,6 +133,7 @@ private fun MainScreen(
     fragmentNavController: NavController,
     viewModel: MainViewModel = viewModel(factory = MainModule.Factory())
 ) {
+    val context = LocalContext.current
     val activityIntent by mainActivityViewModel.intentLiveData.observeAsState()
     LaunchedEffect(activityIntent) {
         activityIntent?.data?.let {

@@ -334,7 +334,7 @@ fun BalanceItems(
                             BalanceActionButton(
                                 variant = ButtonVariant.Secondary,
                                 icon = R.drawable.ic_swap_circle_24,
-                                title = stringResource(R.string.Swap),
+                                title = stringResource(R.string.Swap_Tab_Title),
                                 onClick = {
                                     navController.slideFromRight(R.id.multiswap)
 

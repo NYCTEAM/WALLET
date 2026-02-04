@@ -199,7 +199,7 @@ private fun SwapScreenInner(
     val quote = uiState.quote
 
     HSScaffold(
-        title = stringResource(R.string.Swap),
+        title = stringResource(R.string.Swap_Tab_Title),
         onBack = onClickClose,
         menuItems = buildList {
             uiState.timeRemainingProgress?.let { timeRemainingProgress ->

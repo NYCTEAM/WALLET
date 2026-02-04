@@ -101,7 +101,7 @@ val BalanceViewItem2.contextMenuItems: List<BalanceContextMenuViewItem>
 enum class BalanceContextMenuItem(@StringRes val title: Int, @DrawableRes val icon: Int) {
     Send(R.string.Balance_Send, R.drawable.ic_arrow_up_24),
     CopyAddress(R.string.Button_CopyAddress, R.drawable.ic_copy_24),
-    Swap(R.string.Swap, R.drawable.ic_swap_circle_24),
+    Swap(R.string.Swap_Tab_Title, R.drawable.ic_swap_circle_24),
     CoinInfo(R.string.Coin_Info, R.drawable.ic_coin_info_24),
     HideToken(R.string.Button_HideCoin, R.drawable.ic_minus_24),
 }
